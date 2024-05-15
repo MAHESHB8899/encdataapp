@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>in.mbengineers.www</groupId>
 	<artifactId>encdata</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 	
 	<name>encdata</name>
@@ -62,7 +62,7 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git://github.com/MAHESHB8899/myapp.git</connection>
+		<connection>scm:git:git://github.com/MAHESHB8899/encdataapp.git</connection>
 		<developerConnection>scm:git:ssh://github.com/MAHESHB8899/encdataapp.git</developerConnection>
 		<url>https://github.com/MAHESHB8899/encdataapp.git</url>
 	</scm>
@@ -85,11 +85,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<dependency>
-    <groupId>in.mbengineers.www</groupId>
-    <artifactId>myapptest</artifactId>
-    <version>0.0.4</version>
-</dependency>
+
 	
 		
 	 <dependency> 
@@ -297,6 +293,7 @@
 					<tokenAuth>true</tokenAuth>
 				</configuration>
 			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
