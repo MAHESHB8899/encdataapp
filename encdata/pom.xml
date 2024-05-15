@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>in.mbengineers.www</groupId>
 	<artifactId>encdata</artifactId>
-	<version>0.0.5</version>
+	<version>0.0.6</version>
 	<packaging>jar</packaging>
 	
 	<name>encdata</name>
@@ -58,13 +58,13 @@
 			<name>Mahesh</name>
 			<email>mahesh@gmail.com</email>
 			<organization>io.github.MAHESHB8899</organization>
-			<organizationUrl>https://github.com/MAHESHB8899/myapp/tree/main/myapp</organizationUrl>
+			<organizationUrl>https://github.com/MAHESHB8899/encdataapp/tree/main/encdata</organizationUrl>
 		</developer>
 	</developers>
 	<scm>
 		<connection>scm:git:git://github.com/MAHESHB8899/myapp.git</connection>
-		<developerConnection>scm:git:ssh://github.com/MAHESHB8899/myapp.git</developerConnection>
-		<url>https://github.com/MAHESHB8899/myapp.git</url>
+		<developerConnection>scm:git:ssh://github.com/MAHESHB8899/encdataapp.git</developerConnection>
+		<url>https://github.com/MAHESHB8899/encdataapp.git</url>
 	</scm>
 	<dependencies>
 		<dependency>
