@@ -9,9 +9,9 @@
 		<!--  <version>2.7.3</version> -->
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>in.mbengineers.encdata</groupId>
+	<groupId>in.mbengineers.www</groupId>
 	<artifactId>encdata</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.7</version>
 	<packaging>jar</packaging>
 	<name>encdata</name>
 	<description>Demo project for Spring Boot</description>
@@ -23,7 +23,7 @@
 		<central-publishing-maven-plugin.version>0.4.0</central-publishing-maven-plugin.version>
 		<nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
 		<maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
-		<maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
+		<maven-javadoc-plugin.version>3.6.3</maven-javadoc-plugin.version>
 		<maven-source-plugin.version>2.2.1</maven-source-plugin.version>
 	
 		<!-- <hibernate-validator.version>6.0.0.Final</hibernate-validator.version> -->
@@ -307,22 +307,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>${maven-javadoc-plugin.version}</version>
-				<configuration>
-					<javadocExecutable>${java.home}/bin/javadoc</javadocExecutable>
-				</configuration>
-				<executions>
-					<execution>
-						<id>attach-javadocs</id>
-						<goals>
-							<goal>jar</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
